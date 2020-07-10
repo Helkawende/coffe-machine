@@ -35,6 +35,10 @@ font-family: 'Rubik', sans-serif;
     letter-spacing: 1px;
 }
 
+.progress-bar {
+    transition: none;
+}
+
 .coffee-oper {
     background-color: rgb(204,147,97);
     padding: 10px;
@@ -44,6 +48,7 @@ font-family: 'Rubik', sans-serif;
     border: 2px solid rgb(103,55,34);
     background-color: rgb(255,245,70);
     padding: 15px;
+    min-height: 130px;
 }
 
 .display span {
@@ -53,6 +58,11 @@ font-family: 'Rubik', sans-serif;
 
 .cup img, .atm img {
   width: 100%;
+}
+
+.cup img {
+    opacity: 0;
+    display: none;
 }
 
 .change-box {
